@@ -470,7 +470,7 @@ margin: 38px 0 0 0;
 /* header*/
 header{
 	height: 73px;
-	min-width: 540px;
+	min-width: 520px;
 	padding: 12px 0 0 100px;
 	background-color: #3389c5
 }
@@ -488,6 +488,7 @@ header{
 	margin: 0 0 0 40px;
 	min-width: 540px;
 	min-height: calc(100% - 85px);
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 .content {
 	padding: 20px 10px 20px 60px;
