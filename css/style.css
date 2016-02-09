@@ -289,6 +289,8 @@ th {
 /* Haruki */
 
 .input--haruki {
+	position: relative;
+	left: -10px;
 	margin: 30px 0 0 0;
 }
 .input--haruki-contact{
@@ -299,12 +301,12 @@ margin: 38px 0 0 0;
 }
 
 .input__field--haruki {
-	padding: 12px 10px;
+	padding: 8px 10px;
 	width: 100%;
 	background: transparent;
 	color: #012639;
 	font-size: 22px;
-	line-height: 24px;
+	line-height: 32px;
 }
 
 .input__label--haruki {
@@ -617,7 +619,6 @@ header{
 	font-weight: 600;
 }
 .form-sended{
-	border-top: 3px solid #3389C5;
 	padding-top: 60px;
 	max-width: 850px;
 }
