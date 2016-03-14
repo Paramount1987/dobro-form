@@ -49,7 +49,7 @@ $(".question-item-master input").change(function(){
 });
 
 //-----------------------------------------------form-validation
-		$("#form-validation").validate({
+	var formValidate =	$("#form-validation").validate({
 			rules: {
 				organization: "required",
 				siteFund: "required"
@@ -59,5 +59,11 @@ $(".question-item-master input").change(function(){
 				siteFund: "Заполните поле"
 			}
 		});
+
+	$("#showErrors").click(function(){	
+	formValidate.showErrors({
+		"organization": "Код регистрации не найден"
+		});
+	});	
 
 });
