@@ -63,7 +63,7 @@ $(".question-item-master input").change(function(){
 	$("#showErrors").click(function(){	
 	formValidate.showErrors({
 		"organization": "Код регистрации не найден"
-	});
+		});
 	});	
 
 });
