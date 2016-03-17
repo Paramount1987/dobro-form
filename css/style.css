@@ -632,8 +632,9 @@ label.error{
 @media (min-width: 768px){
 	label.error{
 		position: absolute;
-		top: 25px;
-		right: -200px;
+		top: 22px;
+		left: 510px;
+		width: 320px;
 	}
 }
 
